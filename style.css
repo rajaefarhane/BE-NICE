@@ -1,0 +1,59 @@
+/*
+ Theme Name:   bring-back-child
+Theme URI: https://www.themetim.com/wordpress-themes/bring-back/
+ Description:  Description de mon thème enfant
+ Author:       rajae/kaoutar/charles
+ Author URI:   https://wpmarmite.com
+ Template:     bring-back
+ Version: 1.15
+*/
+.header-wrapper{
+  background-color: #EC8E6E;
+  color: white;
+}
+.header-wrapper a{
+  color: white;
+}
+.main-menu li a{
+  color:white;
+}
+.main-menu li a:hover{
+  color:#040032;
+  text-decoration: none;
+}
+
+.main-menu .navbar-nav .dropdown:hover .dropdown-menu
+{
+  color:#040032!important;
+  text-decoration: none;
+  background-color: #EC8E6E;
+
+}
+
+ .dropdown-menu .menu-item  .dropdown-item {
+  color:#040032!important;
+}
+
+.dropdown-item:hover{
+  color:#040032!important;
+    background-color: #EC8E6E!important;
+}
+/************logo*************/
+.custom-logo{
+  width: 40%;
+  height: 40%;
+  margin-left: -15vw;
+}
+/**********la couleure de chargement de la page*****/
+#preloader {
+background: #040032;
+transition: 0.7s;
+}
+/* .main-menu li a:hover:before{
+  content:'';
+  position:absolute;
+  top: 4vh;
+  border-bottom:2px solid #040032;
+  width:20px;
+  transition: 0.4s;
+} */
