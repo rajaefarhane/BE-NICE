@@ -55,9 +55,9 @@ transition: 0.7s;
 }
 /********image banner*******************/
 .img-fluid{
-  width: 70vw!important;
+  width: 90vw!important;
   height:70vh;
-  margin-top: -20vh;
+  margin-top: -5vh;
   margin-left: 0vw;
 }
 .hero-banner {
