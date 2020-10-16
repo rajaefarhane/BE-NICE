@@ -91,6 +91,9 @@ transition: 0.7s;
   font-size: 24px;
   font-family:'Montserrat Medium'
 }
+/* .hero-area{
+  height: 40vh;
+} */
 /* .main-menu li a:hover:before{
   content:'';
   position:absolute;
