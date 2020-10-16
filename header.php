@@ -60,7 +60,7 @@ if( esc_attr( $pre_loader ) == true ) :
                                 ?>
 
 
-                            
+
                         </div>
                         <!-- .logo end -->
 
@@ -157,7 +157,7 @@ if( esc_attr( $pre_loader ) == true ) :
                         <?php endif; ?>
 
                         <div class="col-lg-5 col-12">
-                            <div class="hero-content<?php echo ( esc_attr( $enable_hero_shape_animation ) ) ? ' hero-has-shape-animation' : false; ?>">
+                            <div class="">
                                 <?php if ( esc_html( $hero_title ) ) : ?>
                                     <h2><?php echo esc_html( $hero_title ); ?></h2>
                                 <?php endif; ?>
