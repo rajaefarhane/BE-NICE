@@ -10,33 +10,37 @@ Theme URI: https://www.themetim.com/wordpress-themes/bring-back/
 .header-wrapper{
   background-color: #EC8E6E;
   color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 .header-wrapper a{
-  color: white;
+  color: white!important;
 }
 .main-menu li a{
-  color:white;
+  color:white!important;
 }
 .main-menu li a:hover{
-  color:#040032;
+  color:#040032!important;
   text-decoration: none;
 }
 
 .main-menu .navbar-nav .dropdown:hover .dropdown-menu
 {
-  color:#040032!important;
+  color:white;
   text-decoration: none;
-  background-color: #EC8E6E;
+  background-color: #040032!important;
 
 }
-
  .dropdown-menu .menu-item  .dropdown-item {
-  color:#040032!important;
+  color:white!important;
 }
-
+.dropdown-menu .menu-item  .dropdown-item:hover {
+ color:#EC8E6E!important;
+}
 .dropdown-item:hover{
-  color:#040032!important;
-    background-color: #EC8E6E!important;
+    color:#040032!important;
+    background-color: transparent!important;
 }
 /************logo*************/
 .custom-logo{
@@ -48,6 +52,44 @@ Theme URI: https://www.themetim.com/wordpress-themes/bring-back/
 #preloader {
 background: #040032;
 transition: 0.7s;
+}
+/********image banner*******************/
+.img-fluid{
+  width: 70vw!important;
+  height:70vh;
+  margin-top: -20vh;
+  margin-left: 0vw;
+}
+.hero-banner {
+  margin-left: 50vw;
+}
+/*******texte banner****************/
+.bienvenue{
+  color: white;
+  font-family: 'Montserrat ExtraBold' ;
+  margin-top: -50vh;
+  font-size: 50px;
+}
+.be{
+  color:#040032;!important;
+  font-family: 'Montserrat ExtraBold' ;
+  font-size: 50px;
+}
+.nice{
+  color:#ED1B24;!important;
+  font-family: 'Montserrat ExtraBold' ;
+  font-size: 50px;
+}
+.ex{
+  color:white;!important;
+  font-family: 'Montserrat ExtraBold' ;
+  font-size: 50px;
+}
+
+.description{
+  color: white;
+  font-size: 24px;
+  font-family:'Montserrat Medium'
 }
 /* .main-menu li a:hover:before{
   content:'';

@@ -130,6 +130,7 @@ if( esc_attr( $pre_loader ) == true ) :
          */
         // Header Area
         $hero_area = get_theme_mod( 'enable_hero_area', false );
+
         // Header Banner/Ads
         $header_banner = get_theme_mod( 'header_ads_show', false );
 
@@ -138,20 +139,19 @@ if( esc_attr( $pre_loader ) == true ) :
             $hero_title = get_theme_mod( 'hero_title' );
             $hero_content = get_theme_mod( 'hero_content' );
             $hero_btn_text = get_theme_mod( 'hero_btn_text' );
+            $hero_description = get_theme_mod( 'hero_description' );
             $hero_btn_url = get_theme_mod( 'hero_btn_url', '#' );
             // Get URL only
             $hero_banner = get_theme_mod( 'hero_banner', get_template_directory_uri() . '/images/hero-banner.png' );
-            // Animation
-            $enable_hero_banner_animation = get_theme_mod( 'enable_hero_banner_animation', false );
-            $enable_hero_shape_animation = get_theme_mod( 'enable_hero_shape_animation', false );
+
             ?>
             <!-- .hero-area start -->
             <div class="hero-area">
                 <div class="container">
-                    <div class="row">
+                    <div class="row ">
 
                         <?php if ( esc_url( $hero_banner ) ) : ?>
-                            <div class="col-lg-7 col-12 offset-lg-5 hero-banner<?php echo ( esc_attr( $enable_hero_banner_animation ) ) ? ' hero-has-banner-animation' : false; ?>">
+                            <div class="col-lg-7 col-12 offset-lg-5 hero-banner<?php echo ( esc_attr( $enable_hero_banner_animation ) ) ?>">
                                 <img src="<?php echo esc_url( $hero_banner ); ?>" class="img-fluid">
                             </div>
                         <?php endif; ?>
@@ -159,10 +159,22 @@ if( esc_attr( $pre_loader ) == true ) :
                         <div class="col-lg-5 col-12">
                             <div class="">
                                 <?php if ( esc_html( $hero_title ) ) : ?>
-                                    <h2><?php echo esc_html( $hero_title ); ?></h2>
+                                    <h2 class="bienvenue"><?php echo esc_html( $hero_title ); ?></h2>
                                 <?php endif; ?>
+                                <div>
+                                   <h3>
+                                     <span class="be">BE</span>
+                                     <span class="nice"> NICE</span>
+                                     <span class="ex"> !</span>
+                                   </h3>
+                                </div>
                                 <?php if ( esc_html( $hero_content ) ) : ?>
-                                    <p class="m-0"><?php echo esc_html( $hero_content ); ?></p>
+                                    <p class="description"><?php echo esc_html( $hero_content ); ?></p>
+
+                                <?php endif; ?>
+                                <?php if ( esc_html( $hero_description ) ) : ?>
+                                    <p class="m-0"><?php echo esc_html( $hero_description ); ?></p>
+
                                 <?php endif; ?>
                                 <?php if ( esc_html( $hero_btn_text ) ) : ?>
                                     <a href="<?php echo esc_url( $hero_btn_url ); ?>" class="btn mt-35"><?php echo esc_html( $hero_btn_text ); ?></a>
