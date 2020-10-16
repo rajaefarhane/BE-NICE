@@ -40,9 +40,9 @@ Theme URI: https://www.themetim.com/wordpress-themes/bring-back/
 }
 /************logo*************/
 .custom-logo{
-  width: 40%;
-  height: 40%;
-  margin-left: -15vw;
+  width: 30%;
+  height: 30%;
+  margin-left: 0vw;
 }
 /**********la couleure de chargement de la page*****/
 #preloader {
