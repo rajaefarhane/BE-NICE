@@ -7,17 +7,22 @@ Theme URI: https://www.themetim.com/wordpress-themes/bring-back/
  Template:     bring-back
  Version: 1.15
 */
+
 .header-wrapper{
   background-color: #EC8E6E;
   color: white;
   position: fixed;
   width: 100%;
+  /* height: 90px; */
   z-index: 100;
 }
+
 .header-wrapper a{
   color: white!important;
 }
 .main-menu li a{
+  font-family: 'Montserrat'!important;
+  font-weight: bold!important;
   color:white!important;
 }
 .main-menu li a:hover{
@@ -42,28 +47,32 @@ Theme URI: https://www.themetim.com/wordpress-themes/bring-back/
     color:#040032!important;
     background-color: transparent!important;
 }
-/************logo*************/
-.custom-logo{
+/************Logo*************/
+.custom-logo {
   width: 30%;
   height: 30%;
   margin-left: 0vw;
 }
-/**********la couleure de chargement de la page*****/
+/**********Couleur du chargement de la page*****/
 #preloader {
 background: #040032;
 transition: 0.7s;
 }
-/********image banner*******************/
-.img-fluid{
-  width: 90vw!important;
-  height:70vh;
-  margin-top: -5vh;
-  margin-left: 0vw;
+/********Image banner*******************/
+.img-fluid {
+  margin-top: 23vh;
+  /* margin-left: 0vw; */
+
 }
 .hero-banner {
   margin-left: 50vw;
 }
-/*******texte banner****************/
+
+.hero-area {
+  height:750px;
+}
+
+/*******Texte banner****************/
 .bienvenue{
   color: white;
   font-family: 'Montserrat ExtraBold' ;
@@ -88,12 +97,115 @@ transition: 0.7s;
 
 .description{
   color: white;
-  font-size: 24px;
-  font-family:'Montserrat Medium'
+  font-size: 20px;
+  margin-top: 2vw;
+  font-family:'Montserrat SemiBold'!important;
 }
+
+h3 {
+  color: #ED1B24!important;
+  font-family: 'Montserrat ExtraBold'!important ;
+}
+
+.wp-block-button__link {
+  font-family: 'Montserrat ExtraBold'!important ;
+  color: white!important;
+  background-color: #EC8E6E!important;
+}
+
+
+.wp-block-embed__wrapper iframe {
+  height: 360px;
+  width: 777px;
+}
+
+.blocks-gallery-grid.is-cropped .blocks-gallery-image a, .blocks-gallery-grid.is-cropped .blocks-gallery-image img, .blocks-gallery-grid.is-cropped .blocks-gallery-item a, .blocks-gallery-grid.is-cropped .blocks-gallery-item img, .wp-block-gallery.is-cropped .blocks-gallery-image a, .wp-block-gallery.is-cropped .blocks-gallery-image img, .wp-block-gallery.is-cropped .blocks-gallery-item a, .wp-block-gallery.is-cropped .blocks-gallery-item img {
+  height:100%;
+  width: 380px;
+}
+
+.entry-content h2 {
+  font-family: 'Montserrat ExtraBold'!important ;
+  color: #040032!important;
+  border-bottom: 5px solid #040032;
+  width: 50px;
+}
+
+
+.main-menu .dropdown-menu li a:hover, .pricing-item li:before, .tabs-wrap .nav-tabs .nav-link.active, .btn, a.btn, button, [type=button], [type=reset], [type=submit], .elementor a.btn, .pagination .page-numbers.current, .pagination .page-numbers:hover {
+  background-color:transparent!important;
+}
+
+@media (max-width: 991.98px){
+  .navbar-toggler span {
+    background : white!important;
+  }
+}
+
+@media (max-width: 991.98px){
+  .main-menu .dropdown a i {
+    background:white!important;
+    color: #EC8E6E!important;
+}
+}
+
+.icofont-search-2 {
+  content: url("search.png")!important;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.header-search button.btn {
+  display: none;
+}
+
+.form-control, textarea, input[type=text], input[type=email], input[type=url], input[type=tel], input[type=password], input[type=number], select {
+  border-radius: 50px;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+  border-radius: 50px;
+}
+
+.input-group input {
+  text-decoration: none!important;
+}
+
+.footer-bottom {
+  background-color: #EC8E6E;
+}
+
+
+.form-control, textarea, input[type=text], input[type=email], input[type=url], input[type=tel], input[type=password], input[type=number], select
+{
+  border: 1px solid rgb(224, 225, 225)!important;
+}
+
+.form-control:focus,
+textarea:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=tel]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+select:focus {
+  border:1px solid rgb(224, 225, 225)!important;
+  -webkit-box-shadow: none!important;
+  box-shadow:none!important;
+}
+
+
+.wp-block-group {
+display: flex!important;
+justify-content: center!important;
+}
+
 /* .hero-area{
   height: 40vh;
-} */
+}
 /* .main-menu li a:hover:before{
   content:'';
   position:absolute;
