@@ -93,7 +93,8 @@ transition: 0.7s;
 }
 /* .hero-area{
   height: 40vh;
-} */
+}
+*/
 /* .main-menu li a:hover:before{
   content:'';
   position:absolute;
@@ -102,3 +103,31 @@ transition: 0.7s;
   width:20px;
   transition: 0.4s;
 } */
+
+/*******Medias****************/
+.wp-block-media-text__content h2{
+  color: #ED1B24;
+  font-family: "Monsterrat ExtraBold";
+  font-size: 50px;
+}
+.wp-block-media-text__content p{
+  font-family: "Montserrat Medium";
+  color: #ffffff;
+  font-size: 20px;
+}
+.wp-block-embed__wrapper{
+  display: flex;
+  justify-content: center;
+}
+.entry-header h1{
+  margin-top: 8vh;
+  color: #ffffff;
+}
+.has-text-align-center{
+  font-family: "Monsterrat ExtraBold";
+  color: #ED1B24;
+  font-size: 50px;
+}
+.wp-block-group{
+  margin-bottom: 20vh;
+}
