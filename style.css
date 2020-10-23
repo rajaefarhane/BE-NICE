@@ -7,6 +7,10 @@ Theme URI   : https://www.themetim.com/wordpress-themes/bring-back/
  Template   :     bring-back
  Version    : 1.15
 */
+body {
+  overflow-x: hidden;
+}
+
 .header-wrapper{
   background-color: #EC8E6E;
   color: white;
@@ -76,7 +80,7 @@ transition: 0.7s;
 .img-fluid{
   width: 70vw!important;
   height:70vh;
-  margin-top: -20vh;
+  margin-top: 12vh;
   margin-left: 0vw;
 }
 .hero-banner {
