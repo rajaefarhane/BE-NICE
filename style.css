@@ -381,35 +381,3 @@ background-color: transparent;
 /* .site-wrap{
   background-color: red;
 } */
-
-/*******Medias****************/
-.wp-block-media-text__content h5{
-  color: #ED1B24;
-  font-family: "Monsterrat ExtraBold";
-  font-size: 45px;
-}
-.wp-block-media-text__content p{
-  font-family: "Montserrat Medium";
-  color: #ffffff;
-  font-size: 20px;
-}
-.wp-block-embed__wrapper{
-  display: flex;
-  justify-content: center;
-}
-.entry-header h1{
-  margin-top: 8vh;
-  color: #ffffff;
-}
-.has-text-align-center{
-  font-family: "Monsterrat ExtraBold";
-  color: #ED1B24;
-  font-size: 50px;
-}
-.wp-block-group{
-  margin-bottom: 20vh;
-}
-.azerty{
-  display: flex;
-  justify-content: flex-end;
-}
