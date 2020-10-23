@@ -14,6 +14,25 @@ Theme URI   : https://www.themetim.com/wordpress-themes/bring-back/
   width: 100%;
   z-index: 100;
 }
+/********version mobile ************/
+
+.main-menu .dropdown-menu li a:hover, .pricing-item li:before, .tabs-wrap .nav-tabs .nav-link.active, .btn, a.btn, button, [type=button], [type=reset], [type=submit], .elementor a.btn, .pagination .page-numbers.current, .pagination .page-numbers:hover {
+    background-color:#EC8E6E;
+}
+@media (max-width: 991.98px){
+
+  .navbar-toggler span {
+    background : white!important;
+  }
+}
+
+@media (max-width: 991.98px){
+  .main-menu .dropdown a i {
+    background:white!important;
+    color: #EC8E6E!important;
+}
+}
+
 .header-wrapper a{
   color: white!important;
 }
@@ -63,10 +82,57 @@ transition: 0.7s;
 .hero-banner {
   margin-left: 50vw;
 }
+
 .hero-area {
     padding: px 0;
     height: 100vh;
+    background-color:#EC8E6E;
 }
+/***********search************/
+.icofont-search-2 {
+  content: url("search.png")!important;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.header-search button.btn {
+  display: none;
+}
+
+.form-control, textarea, input[type=text], input[type=email], input[type=url], input[type=tel], input[type=password], input[type=number], select {
+  border-radius: 50px;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+  border-radius: 50px;
+}
+
+.input-group input {
+  text-decoration: none!important;
+}
+
+.form-control, textarea, input[type=text], input[type=email], input[type=url], input[type=tel], input[type=password], input[type=number], select
+{
+  border: 1px solid rgb(224, 225, 225)!important;
+}
+
+.form-control:focus,
+textarea:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=tel]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+select:focus {
+  border:1px solid rgb(224, 225, 225)!important;
+  -webkit-box-shadow: none!important;
+  box-shadow:none!important;
+}
+
+
 /*******texte banner****************/
 .bienvenue{
   color: white;
@@ -116,6 +182,7 @@ height:10vh!important;
     border-left: 1px solid red;
     border-right: 1px solid red; */
     padding: 45px 35px;
+    padding-bottom: 20vh;
 }
 .view-details{
   color: white!important;
@@ -163,7 +230,7 @@ height:10vh!important;
 }
 #secondary {
     background-color: #120E4D;
-    margin-top: -54vh;
+    margin-top: -68vh;
     margin-left: -17vh;
     width:70vw;
 }
@@ -268,9 +335,49 @@ nav.navigation.post-navigation, .post-navigation .nav-links {
 text-decoration: none;
 background-color: transparent;
 }
+
 .post-113{
   margin-top: -39vh;
 }
-.site-wrap{
+
+/****************footer*********/
+.container-fluid {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #EC8E6E;
+}
+.footer {
+    background-repeat: no-repeat;
+    margin-top: 0vh;
+    padding-top: 155px;
+    background-position: -40px 0;
+    background-color:#EC8E6E;
+    z-index: 0;
+    height: 2vh;
 
 }
+.footer-bottom {
+  display: none;
+}
+.default-page{
+  z-index: 100;
+}
+.blog-content{
+  z-index: 0;
+}
+.entry-footer{
+  margin-top: -12vh;
+}
+.tous {
+    margin-top: -5vh!important;
+    color: white;
+    font-family: 'Montserrat Medium';
+    margin-left: 40vw;
+    font-size: 15px;
+}
+/* .site-wrap{
+  background-color: red;
+} */
