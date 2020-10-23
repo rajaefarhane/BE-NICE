@@ -131,3 +131,7 @@ transition: 0.7s;
 .wp-block-group{
   margin-bottom: 20vh;
 }
+.azerty{
+  display: flex;
+  justify-content: flex-end;
+}
